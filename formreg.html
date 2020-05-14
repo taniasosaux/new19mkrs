@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19MAKERS</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="assets/img/png" href="assets/img/logown.png" />
+    <link rel=" stylesheet " href="index.html" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <style type="text/css" media="screen, print">
+        @font-face {
+            font-family: "NeueMachina-Regular";
+            src: url("assets/typo/NeueMachina");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper white z-depth-2">
+            <div class="container-nav ">
+                <a title="Logo19M" href="index.html">
+                    <img src="assets/img/logown.png" width="45" height="45" alt="Logo 19Makers" /></a>
+                <a href="#" data-target="menu-responsive" class=" right sidenav-trigger">
+                    <i class="material-icons black-text">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a class="modal-trigger black-text" href="#modal1">¿Quiénes Somos?</a>
+                    </li>
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <!--<h4>Modal Header</h4>
+                  <p>A bunch of text</p>-->
+                            <video class="responsive-video" controls>
+                                <source src="assets/img/19video.mp4" type="video/mp4">
+                            </video>
+                            <div class="modal-footer">
+                                <a class="modal-close waves-effect waves-light btn teal center" href="index.html">¡
+                                    REGISTRATE !</a>
+                            </div>
+                        </div>
+                    </div>
+                    <li>
+                        <a class="black-text" href="index.html">Registro</a>
+                    </li>
+                    <!--<li>
+                    <a href="camp.html">Campañas</a>
+                </li>-->
+                    <li>
+                        <a class="black-text" href="descarga.html">Descargables</a>
+                    </li>
+                    <!--<div class="container-btn">
+
+            <div class="btn modal-trigger btn-floating btn-big waves-effect waves-light black" href="#"><i
+                class="material-icons">person</i>
+            </div>
+          </div>-->
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="right sidenav" id="menu-responsive">
+
+        <a title="Logo19M" href="index.html">
+            <img class="right" src="assets/img/logown.png" width="45" height="45" alt="Logo 19Makers" /></a>
+
+        <li>
+            <a class="modal-trigger" href="#modal2">¿Quiénes Somos?</a>
+        </li>
+        <!-- Modal Structure -->
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <!--<h4>Modal Header</h4>
+          <p>A bunch of text</p>-->
+                <video class="responsive-video" controls>
+                    <source src="assets/img/19video.mp4" type="video/mp4">
+                </video>
+                <div class="modal-footer">
+                    <a class="modal-close waves-effect waves-light btn teal center" href="index.html">¡ REGISTRATE
+                        !</a>
+
+                </div>
+            </div>
+        </div>
+        <li>
+            <a class="waves-effect" href="index.html">Registro</a>
+        </li>
+        <!--<li>
+            <a href="camp.html">Campañas</a>
+        </li>-->
+        <li>
+            <a class="waves-effect" href="descarga.html">Descargables</a>
+        </li>
+        </div>
+        <!--<div class="right">
+
+      <div class="btn modal-trigger btn-floating btn-big waves-effect waves-light black" href="#"><i
+          class=" material-icons">person</i>
+      </div>
+    </div>-->
+
+    </ul>
+
+    <div class="container s6 m6">
+        <div class="col s6 m6 l12">
+            <div class="card-panel">
+                <h4 class="header2">Registro </h4>
+                <div class="row s12 m6 l6">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12 m6 l6"> <i
+                                    class="material-icons prefix">account_circle</i><input id="icon_prefix" type="text"
+                                    class="validate"> <label for="icon_prefix">
+                                    Nombre(s)</label></div>
+                            <div class="input-field col s12 m6 l6">
+                                <input id="apellidos" type="text" class="validate">
+                                <label for="apellidos">Apellidos</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 m6 l6">
+                                <i class="material-icons prefix">mail</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                                <span class="helper-text" data-error="wrong" data-success="right"></span>
+                            </div>
+                            <div class="input-field col s12 m6 l6">
+                                <i class="material-icons prefix">security</i>
+                                <input id="password" type="password" class="validate">
+                                <label for="password">Contraseña</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 m6 l6">
+                                <i class="material-icons prefix">security</i>
+                                <input id="password" type="password" class="validate">
+                                <label for="password">Confirma contraseña</label>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 m6 l6">
+                                    <form action="#">
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" class="filled-in" checked="checked" />
+                                                <span>ACEPTO TERMINOS Y CONDICIONES</span>
+                                            </label>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="input-field col s12"> <button
+                                        class="btn teal waves-effect waves-light right" type="submit"
+                                        name="action">Enviar <i class="mdi-content-send right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer z-depth-5">
+        <div class="container">
+            <div class="social">
+                <a href="#" class="social-link facebook"></a>
+                <a href="https://twitter.com/19makersorg" class="social-link twitter"></a>
+                <a href="https://instagram.com/19makers" class="social-link Instagram"></a>
+                <!--
+        <a href="https://www.linkedin.com/company/plataformamexicocovid19/" class="social-link linkedIn"></a>-->
+            </div>
+
+            <p>
+                19MAKERS
+                <a href="tyc.html">Términos y Condiciones /</a>
+                <a href="adp.html">Aviso de privacidad</a>
+            </p>
+
+        </div>
+    </footer>
+    <script>
+        const ipad = window.matchMedia("screen and (max-width: 767px)");
+        const menu = document.querySelector(".menu");
+        const burgerButton = document.querySelector("#burger-menu");
+        ipad.addListener(validation);
+
+        function validation(event) {
+            if (event.matches) {
+                burgerButton.addEventListener("click", hideShow);
+            } else {
+                burgerButton.removeEventListener("click", hideShow);
+            }
+        }
+        validation(ipad);
+
+        function hideShow() {
+            if (menu.classList.contains("is-active")) {
+                menu.classList.remove("is-active");
+            } else {
+                menu.classList.add("is-active");
+            }
+        }
+    </script>
+    <script data-account="3tE0i3UiGQ" src="https://cdn.userway.org/widget.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {
+                edge: 'right'
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+<!--<br />Diseñado con 💖 por
+            <a href="https://taniasosa.com">Tania Sosa</a>-->
